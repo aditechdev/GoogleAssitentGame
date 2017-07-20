@@ -12,5 +12,9 @@ export const environment = {
     projectId: "gamega-84f6b",
     storageBucket: "",
     messagingSenderId: "17920955798"
+  },
+  apiai:{
+    clientAccessToken:"22990bf1784243b3a06d8f858fce839a",
+    devAccessToken:"260a3de95fad4c3c995e46082f46341e"
   }
 };

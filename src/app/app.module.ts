@@ -8,6 +8,7 @@ import { environment } from "../environments/environment";
 import { AngularFireModule } from "angularfire2/angularfire2";
 import { AngularFireDatabase } from "angularfire2/database";
 
+import {ApiAiClient} from "api-ai-javascript";
 
 @NgModule({
   declarations: [

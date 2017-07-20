@@ -1,10 +1,11 @@
-<p>
-  tests works!
-</p>
-
+<div> 
+  <h3>{{lastResponse}}</h3>
+</div>
 
 <ul>
-  <li *ngFor="let item of items | async">
-    {{ item.name }}
+  <li *ngFor="let riddle of riddles | async">
+    {{ riddle.hint }}
   </li>
 </ul>
+
+<button *ngIf="showTalkButton" (click)="talk()"> Talk Test</button>
